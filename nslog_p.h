@@ -24,8 +24,4 @@
 
 NSString *npStringFromAnyType(char *typeCode, ...);
 
-#define p(arg) {\
-  char *typeCode = @encode(typeof(arg));\
-  NSString *str = npStringFromAnyType(typeCode, (arg));\
-  NSLog(@"%@", str);\
-}
+#define p(arg) NSLog(@"%@", npStringFromAnyType(@encode(typeof(arg)), (arg)))
