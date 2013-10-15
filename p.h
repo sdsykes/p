@@ -1,6 +1,6 @@
 //
-//  nslog_p.h
-//  nslog_p
+//  p.h
+//  p
 //
 //  Created by Stephen Sykes on 03/10/13.
 //  Copyright (c) 2013. All rights reserved.

@@ -1,12 +1,12 @@
 //
-//  nslog_p.c
-//  nslog_p
+//  p.m
+//  p
 //
 //  Created by Stephen Sykes on 13/10/13.
 //  Copyright (c) 2013 BinaryAge. All rights reserved.
 //
 
-#import "nslog_p.h"
+#import "p.h"
 
 #define npNSStringForType(type, stringFunction) \
     if (strcmp(typeCode, @encode(type)) == 0) {\
