@@ -33,3 +33,10 @@ through va_args.
     p([NSObject new]);
     p([NSMutableArray class]);
     p(@selector(initWithCapacity:));
+
+## References
+
+Similar inventions:
+
+* [https://github.com/VTPG/CommonCode](https://github.com/VTPG/CommonCode)
+* [https://github.com/JensAyton/JAValueToString](https://github.com/JensAyton/JAValueToString)
